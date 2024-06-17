@@ -3,7 +3,9 @@
 ## Contact:
 
 **Location:** Rostov-on-Don, Russia
+
 **E-mail:**  zgrepka@yandex.ru
+
 **Telegram:** @simp1e_samp1e
 
 ## Summary:
@@ -12,14 +14,14 @@ I'm a proficient developer with experience of working in one of the country TOP-
 
 ## Skills:
 
-+HTML, CSS3
-+JavaScript Core
-+Git, GitHub
-+VS Code
++ HTML, CSS3
++ JavaScript Core
++ Git, GitHub
++ VS Code
 
 ## Code example:
 
-Fake Binary Kata from Codewars.
+**Fake Binary** Kata from Codewars.
 >Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
 ```
 function fakeBin(x){
@@ -34,15 +36,16 @@ function fakeBin(x){
   return newNumber;
 }
 ```
-## Projects:
+## Projects: 
 
-    My [CV](https://ynagay-js.github.io/rsschool-cv/cv).
+My [CV](https://ynagay-js.github.io/rsschool-cv/cv) project.
 
 ## Education:
 
-Don State Technical University, *Computing Systems and Information Security*
+**Don State Technical University**, *Computing Systems and Information Security*
 
 ## Language:
 
-Russian — *Native*
-English — *Upper Intermediate*
+**Russian** — *Native*
+
+**English** — *Upper Intermediate*
