@@ -36,6 +36,7 @@ function fakeBin(x){
   return newNumber;
 }
 ```
+
 ## Projects: 
 
 My [CV](https://ynagay-js.github.io/rsschool-cv/cv) project.
@@ -46,6 +47,6 @@ My [CV](https://ynagay-js.github.io/rsschool-cv/cv) project.
 
 ## Language:
 
-**Russian** — *Native*
+**Russian** *Native*
 
-**English** — *Upper Intermediate*
+**English** *Upper Intermediate*
