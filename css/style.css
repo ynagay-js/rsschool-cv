@@ -1,0 +1,13 @@
+body {
+  display: grid;
+  justify-items: center;
+}
+
+img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: rgba(255, 201, 229, 0.742);
+}
