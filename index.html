@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <link rel="icon" href="assets/svg/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h2>Hello CV!</h2>
-    <img src="assets/img/phoebe.jpg" alt="My avatar - Phoebe from The Friends screaming">
-    <header class="header">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link rel="icon" href="assets/svg/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>Hello CV!</h2>
+  <img src="assets/img/phoebe.jpg" alt="My avatar - Phoebe from The Friends screaming">
+  <header class="header">
+    <div class="container">
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -19,22 +22,82 @@
           <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
           <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
-        </ul> 
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
       </nav>
-      <div class="container">
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="section" id="profile">
+        <h1 class="section-title">Yuliya Nagay</h1>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="ulist">
+          <li class="list-item"><span>Location:</span> Rostov-on-Don, Russia</li>
+          <li class="list-item"><span>E-mail:</span> zgrepka@yandex.ru</li>
+          <li class="list-item"><span>Telegram:</span> @simp1e_samp1e</li>
+          <li class="list-item"><span>Discord:</span> @ynagay-js</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>I'm a proficient developer with experience of working in one of the country TOP-10 bank system. Trying to
+          find new creative ways of work and in a meantime discovering beautifulness of the web-application and
+          all-mighty front-end development environment.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="ulist-dot">
+          <li class="list-item">HTML</li>
+          <li class="list-item">CSS3</li>
+          <li class="list-item">JavaScript Core</li>
+          <li class="list-item">Git, GitHub</li>
+          <li class="list-item">VS Code</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <p><span>Fake Binary - Kata from Codewars.</span></p>
+        <p>Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'.
+          Return the resulting string.</p>
+        <code>
+          function fakeBin(x){
+            let newNumber = '';
+            for (let i = 0; i < x.length; i++) {
+              if (x.charAt(i) >= 5) {
+                newNumber += 1;
+              } else {
+                newNumber += 0;
+              }
+            }
+            return newNumber;
+          }
+        </code>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <p>My <a href="https://ynagay-js.github.io/rsschool-cv/" class ="link">CV</a> Project</p>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p><span>Don State Technical University</span>, <i>Computing Systems and Information Security</i></p>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="ulist-dot">
+          <li class="list-item"><span>Russian</span> <i>Native</i></li>
+          <li class="list-item"><span>English</span> <i>Upper Intermediate</i></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
 
-      </div>
-    </header>
-    <main class="main">
-      <div class="container">
+    </div>
+  </footer>
+</body>
 
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="container">
-
-      </div>
-    </footer>
-  </body>
 </html>
