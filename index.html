@@ -6,12 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My CV</title>
   <link rel="icon" href="assets/svg/favicon.ico">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <h2>Hello CV!</h2>
-  <img src="assets/img/phoebe.jpg" alt="My avatar - Phoebe from The Friends screaming">
   <header class="header">
     <div class="container">
       <nav class="nav">
@@ -28,9 +27,11 @@
     </div>
   </header>
   <main class="main">
-    <div class="container">
+    <div class="container main-container">
       <section class="section" id="profile">
+        <img src="assets/img/phoebe.jpg" alt="My avatar - Phoebe from The Friends screaming">
         <h1 class="section-title">Yuliya Nagay</h1>
+        <h3>Junior Front-end Developer</h3>
       </section>
       <section class="section" id="contacts">
         <h2 class="section-title">Contacts</h2>
@@ -78,7 +79,7 @@
       </section>
       <section class="section" id="projects">
         <h2 class="section-title">Projects</h2>
-        <p>My <a href="https://ynagay-js.github.io/rsschool-cv/" class ="link">CV</a> Project</p>
+        <p>My <a href="https://ynagay-js.github.io/rsschool-cv/" class="link">CV</a> Project</p>
       </section>
       <section class="section" id="education">
         <h2 class="section-title">Education</h2>
@@ -94,8 +95,15 @@
     </div>
   </main>
   <footer class="footer">
-    <div class="container">
-
+    <div class="container footer-container">
+      <div class="github">
+       <p> &copy; 2024
+        <a href="https://github.com/ynagay-js" class="link">ynagay-js</a>
+      </p>
+      </div>
+      <div class="rss">
+        <a href="https://rs.school/courses/javascript-preschool-ru" class="link">RSS</a>
+      </div>
     </div>
   </footer>
 </body>
