@@ -196,9 +196,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* Contacts icons */
-
-.contacts-item::before {
+.section-item::before {
   content: "";
   position: absolute;  
   width: 25px;
@@ -207,21 +205,41 @@ img {
   background-repeat: no-repeat;  
 }
 
-.location::before {
+/* Contacts icons */
+.contacts-location::before {
   background-image: url(../assets/svg/contacts/location.svg);  
 }
 
-.mail::before {
+.contacts-mail::before {
     background-image: url(../assets/svg/contacts/mail.svg);}
 
-.telegram::before {
+.contacts-telegram::before {
   background-image: url(../assets/svg/contacts/telegram.svg);
 }
 
-.discord::before {
+.contacts-discord::before {
   background-image: url(../assets/svg/contacts/discord.svg);
 }
-/* ---------------------------- */
+
+/* Skills icons */
+.skills-html::before {
+  background-image: url(../assets/svg/skills/html.svg);  
+}
+
+.skills-css::before {
+    background-image: url(../assets/svg/skills/css.svg);}
+
+.skills-js::before {
+  background-image: url(../assets/svg/skills/js.svg);
+}
+
+.skills-git::before {
+  background-image: url(../assets/svg/skills/git.svg);
+}
+
+.skills-vs::before {
+  background-image: url(../assets/svg/skills/vs-code.svg);
+}
 
 @media (max-width: 768px) {
   .section {
