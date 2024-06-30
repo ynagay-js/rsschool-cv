@@ -37,9 +37,13 @@ body {
 
 img {
   width: 200px;
-  ;
   height: 200px;
   border-radius: 50%;
+}
+
+img:hover {
+  scale: 1.25;  
+  transition: all 0.3s;
 }
 
 .container {
@@ -56,6 +60,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 20px 15px 0;
 }
 
 .footer-container {
