@@ -12,13 +12,11 @@ html {
   scroll-behavior: smooth;
 }
 
-.header,
-.footer {
+/* .header {
   /* background-color: #DDE5F2; */
   /* background-color: #82534f; */
   background-color: #42B1BC;
-
-}
+} */
 
 .footer {
   padding: 20px;
@@ -53,6 +51,11 @@ img {
   margin-bottom: auto;
 }
 
+.header-container {
+  padding: 15px;
+  background-color: #42B1BC;
+}
+
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +67,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px;
   color: #F2EADD;
+  background-color: #42B1BC;
 }
 
 .section {
