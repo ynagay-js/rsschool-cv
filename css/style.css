@@ -67,7 +67,7 @@ img {
 .section {
   width: 48%;
   padding: 10px;
-  border-bottom: 2px solid #BC4D42;
+  border-bottom: 1px solid #BC4D42;
 }
 
 .section-profile {
@@ -91,8 +91,8 @@ img {
   margin: 10px 0;
 }
 
-.section-summary {
-  margin-top: 30px;
+.section-summary {    
+  margin-top: 50px;
 }
 
 .section-education,
@@ -103,9 +103,10 @@ img {
 .nav-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: center;
   list-style: none;
+  padding: 0;
 }
 
 .nav-link {
@@ -118,7 +119,7 @@ img {
 }
 
 .nav-link:hover {
-  color: #963E35;
+  color: #42B1BC;
 }
 
 .ulist {
@@ -132,7 +133,8 @@ img {
 }
 
 .link:hover {
-  color: #963E35;
+  /* color: #963E35; */
+  color: #42B1BC;
 }
 
 .span-style {
@@ -165,7 +167,7 @@ img {
   }
 
   .section-education {
-    border-bottom: 2px solid #BC4D42;
+    border-bottom: 1px solid #BC4D42;
   }
 
 
