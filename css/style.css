@@ -94,7 +94,7 @@ img {
   margin: 10px 0;
 }
 
-.section-summary {    
+.section-summary {
   margin-top: 20px;
 }
 
@@ -124,13 +124,13 @@ img {
   border: 1px solid transparent;
 }
 
-.nav-item:hover {  
+.nav-item:hover {
   border: 1px solid #F2EADD;
   transition: all 0.5s linear;
 }
 
 .ulist {
-  list-style: none;  
+  list-style: none;
 }
 
 .list-item {
@@ -140,10 +140,10 @@ img {
 .list-item::before {
   content: "";
   position: absolute;
-  top: 2px;  
+  top: 2px;
   left: -30px;
   width: 20px;
-  height: 20px; 
+  height: 20px;
   background-size: 20px 20px;
 }
 
@@ -153,7 +153,7 @@ img {
   transition: color 0.5s;
 }
 
-.link:hover {  
+.link:hover {
   color: #42B1BC;
 }
 
@@ -171,6 +171,7 @@ img {
 .italic-style {
   color: #42B1BC;
 }
+
 .git {
   display: flex;
   justify-content: space-evenly;
@@ -182,7 +183,7 @@ img {
   width: 30px;
   height: 30px;
   background-image: url(../assets/svg/footer/github.svg);
-  background-size:contain;
+  background-size: contain;
   background-repeat: no-repeat;
   margin: 0 5px;
 }
@@ -192,26 +193,27 @@ img {
   width: 100px;
   height: 45px;
   background-image: url(../assets/svg/footer/rss.svg);
-  background-size:contain;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
 .section-item::before {
   content: "";
-  position: absolute;  
+  position: absolute;
   width: 25px;
-  height: 25px;  
+  height: 25px;
   background-size: contain;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 /* Contacts icons */
 .contacts-location::before {
-  background-image: url(../assets/svg/contacts/location.svg);  
+  background-image: url(../assets/svg/contacts/location.svg);
 }
 
 .contacts-mail::before {
-    background-image: url(../assets/svg/contacts/mail.svg);}
+  background-image: url(../assets/svg/contacts/mail.svg);
+}
 
 .contacts-telegram::before {
   background-image: url(../assets/svg/contacts/telegram.svg);
@@ -223,11 +225,12 @@ img {
 
 /* Skills icons */
 .skills-html::before {
-  background-image: url(../assets/svg/skills/html.svg);  
+  background-image: url(../assets/svg/skills/html.svg);
 }
 
 .skills-css::before {
-    background-image: url(../assets/svg/skills/css.svg);}
+  background-image: url(../assets/svg/skills/css.svg);
+}
 
 .skills-js::before {
   background-image: url(../assets/svg/skills/js.svg);
