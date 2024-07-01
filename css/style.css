@@ -17,10 +17,6 @@ html {
   #DDE5F2 #82534f
 }  */
 
-.footer {
-  padding: 20px;
-}
-
 body {
   display: flex;
   flex-direction: column;
