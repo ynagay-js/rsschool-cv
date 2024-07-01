@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link rel="icon" href="assets/svg/favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img src="assets/img/phoebe.jpg" alt="My avatar - Phoebe from The Friends screaming">
+        <h1 class="section-title">Yuliya Nagay</h1>
+        <h4 class="section-profile-subtitle">Junior Front-end Developer</h4>
+      </section>
+      <section class="section section-summary" id="summary">
+        <h2 class="section-title section-summary-title">Hello!</h2>
+        <p>I'm a proficient developer with experience of working in one of the country TOP-10 bank system. Trying to
+          find new creative ways of work and in a meantime discovering beautifulness of the web-application and
+          all-mighty front-end development environment.</p>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="ulist">
+          <li class="list-item section-item contacts-location"><span class="span-style">Location: </span>Rostov-on-Don,
+            Russia</li>
+          <li class="list-item section-item contacts-mail"><span class="span-style">E-mail: </span> zgrepka@yandex.ru
+          </li>
+          <li class="list-item section-item contacts-telegram"><span class="span-style">Telegram: </span><a
+              href="https://t.me/simp1e_samp1e" class="link" target="_blank">@simp1e_samp1e</a></li>
+          <li class="list-item section-item contacts-discord"><span class="span-style">Discord: </span><a
+              href="https://discord.gg/wJ8x9qwaYD" class="link" target="_blank">@ynagay-js</a></li>
+        </ul>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="ulist">
+          <li class="list-item section-item skills-html">HTML</li>
+          <li class="list-item section-item skills-css">CSS3</li>
+          <li class="list-item section-item skills-js">JavaScript Core</li>
+          <li class="list-item section-item skills-git">Git, GitHub</li>
+          <li class="list-item section-item skills-vs">VS Code</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <p><span class="span-style">Fake Binary - Kata from Codewars.</span></p>
+        <p>Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'.
+          Return the resulting string.</p>
+        <pre class="pre-block"><code>function fakeBin(x) {
+  let newNumber = "";
+  for (let i = 0; i &lt; x.length; i++) {
+    if (x.charAt(i) &gt;= 5) {
+      newNumber += 1;
+    } else {
+      newNumber += 0;
+    }
+  }
+  return newNumber;
+}</code>
+</pre>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="ulist-dot">
+          <li class="list-item">My <a href="https://ynagay-js.github.io/rsschool-cv/" class="link" target="_blank">CV
+              Project</a></li>
+        </ul>
+      </section>
+      <section class="section section-education" id="education">
+        <h2 class="section-title">Education</h2>
+        <p><span class="span-style">Don State Technical University</span><br>
+          <i class="italic-style">Computing Systems and Information Security</i>
+        </p>
+      </section>
+      <section class="section section-languages" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="ulist-dot">
+          <li class="list-item"><span class="span-style">Russian</span> <i class="italic-style">Native</i></li>
+          <li class="list-item"><span class="span-style">English</span> <i class="italic-style">Upper Intermediate</i>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="git">
+        <p>&copy; 2024 Visit my</p>
+        <a href="https://github.com/ynagay-js" class="git-link" aria-label="github link" target="_blank"></a>
+      </div>
+      <div class="rss">
+        <a href="https://rs.school/courses/javascript-preschool-ru" class="rss-link" aria-label="rsschool link"
+          target="_blank"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
